@@ -34,7 +34,7 @@ python detect_blinks_live_music.py --shape-predictor shape_predictor_68_face_lan
 
 
 COMMENTS FOR FURTHER DEV:
-mainly, there are two issues: 
+There are many issues, but mainly two: 
 1)threading - detection software loop pauses while audio is playing, not allowing for overlapping notes, and also causing spaces between notes. Futher improvements on audio could also be made using sounddevice instead of pygame\
 
 2)parsing - probably more importantly, because currently notes and chords are hardcoded. I think music21 would be great for parsing, as it includes hundreds of songs in its library, but the commented code results in NoneType. mxm.midifile is a pretty good alternative for loading midifiles.
