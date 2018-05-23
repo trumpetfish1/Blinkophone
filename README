@@ -1,6 +1,6 @@
 DESCRIPTION:
 
-Blinkophone is intended for disabled musicians (or non-musicians) who may suffer from a paralysis, however have the capacity to blink. When a blink is detected by a camera, a MIDI sequence is triggered; they are in control of the timing, but the sequence is predetermined.
+Blinkophone is intended for disabled musicians (or non-musicians) who may suffer from a paralysis, however have the capacity to blink. When a blink is detected by camera input, a MIDI sequence is triggered; they are in control of the timing, but the sequence is predetermined.
 
 Currently, the software runs a blink detector in a loop and then triggers audio playback when a blink is detected.
 
