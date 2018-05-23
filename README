@@ -1,11 +1,11 @@
-DESCRIPTION
+DESCRIPTION:
 
-Blinkophone is intended for disabled musicians (or non-musicians) who may suffer from a paralysis, however have the capacity to blink. When a blink is detected by a camera, a MIDI sequence is triggered; they are in control of the timing, but the sequence is predetermined.\
+Blinkophone is intended for disabled musicians (or non-musicians) who may suffer from a paralysis, however have the capacity to blink. When a blink is detected by a camera, a MIDI sequence is triggered; they are in control of the timing, but the sequence is predetermined.
 
-Currently, the software runs a blink detector in a loop and then triggers audio playback when a blink is detected.\
+Currently, the software runs a blink detector in a loop and then triggers audio playback when a blink is detected.
 
-The blink_detection walkthrough it is based on can be found here:\
-https://www.pyimagesearch.com/2017/04/24/eye-blink-detection-opencv-python-dlib/\
+The blink_detection walkthrough it is based on can be found here:
+https://www.pyimagesearch.com/2017/04/24/eye-blink-detection-opencv-python-dlib/
  
 And the Audio is played in Pygame, found here:
 https://www.pygame.org/docs/ref/mixer.html
@@ -39,4 +39,4 @@ mainly, there are two issues:
 
 2)parsing - probably more importantly, because currently notes and chords are hardcoded. I think music21 would be great for parsing, as it includes hundreds of songs in its library, but the commented code results in NoneType. mxm.midifile is a pretty good alternative for loading midifiles.
 
-3)of course, it would be cool to use blinks for making reactive selections, allowing for control over pitch direction. Pentatonic improvisation for example. However this makes the prediction software more susceptible to false blinks, as currently it averages the two eyelids.}
+3)of course, it would be cool to use winks for making reactive selections, allowing for control over pitch direction. Pentatonic improvisation for example. However this makes the prediction software more susceptible to false blinks, as currently it averages the two eyelids.}
